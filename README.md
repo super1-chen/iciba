@@ -1,2 +1,28 @@
 # iciba
-command line dictionary by using iciba api
+
+使用了iciba的 api 做了一个字典的命令行
+
+# Build
+
+```shell
+$ cd ~iciba
+$ go build
+$ cp iciba ~/usr/local/bin
+```
+
+# How to use
+
+```shell
+$ iciba hello
+
+hello
++---+------+-------------------------------------+
+| # | PART |               MEANING               |
++---+------+-------------------------------------+
+| 1 | int. | 哈喽，喂;你好，您好;表示问候;打招呼     |
+| 2 | n.   | “喂”的招呼声或问候声                  |
+| 3 | vi.  | 喊“喂”                              |
++---+------+-------------------------------------+
+
+```
+
