@@ -16,7 +16,7 @@ func main() {
 		os.Exit(1)
 	}
 	words := args[0]
-	err := searcher.SerchWords(words)
+	err := searcher.SearchWords(words)
 	if err != nil {
 		fmt.Println("啊哦，好像出错了，try again~")
 		os.Exit(1)

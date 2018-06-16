@@ -28,7 +28,7 @@ type Mean struct {
 	Means []string `json:"means"`
 }
 
-func SerchWords(words string) error {
+func SearchWords(words string) error {
 	url := fmt.Sprintf("http://dict-mobile.iciba.com/interface/index.php?c=word&m=getsuggest&nums=10&client=6&is_need_mean=1&word=%s", words)
 	resp, err := http.Get(url)
 	if err != nil {
