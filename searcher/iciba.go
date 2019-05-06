@@ -1,14 +1,14 @@
 package searcher
 
 import (
+	"encoding/json"
 	"errors"
 	"fmt"
 	"log"
 	"net/http"
-	"encoding/json"
+	"os"
 	"strconv"
 	"strings"
-	"os"
 
 	"github.com/olekukonko/tablewriter"
 )

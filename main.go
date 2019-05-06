@@ -4,7 +4,8 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"iciba/searcher"
+
+	"github.com/super1-chen/iciba/searcher"
 )
 
 func main() {
