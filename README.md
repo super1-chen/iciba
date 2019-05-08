@@ -1,10 +1,12 @@
 # iciba
 
-使用了iciba的 api 做了一个字典的命令行
+iciba is a command-line dictionary using open API iciba
+
 
 # Build
 
 ```shell
+
 $ cd ~iciba
 $ go build
 $ cp iciba ~/usr/local/bin
