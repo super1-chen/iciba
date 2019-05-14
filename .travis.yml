@@ -4,8 +4,8 @@ install:
   make
 
 script:
-  make test
-  make build
+  - make test
+  - make build
 
 notifications:
   email:
