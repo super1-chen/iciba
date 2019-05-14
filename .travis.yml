@@ -1,8 +1,11 @@
 language: go
+sudo: required
+
+before_install:
+  apt-get -y install zip
 
 install:
   make
-  zip
 
 script:
   make test
