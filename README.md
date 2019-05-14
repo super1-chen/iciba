@@ -1,7 +1,6 @@
-# iciba
+# iciba [![Build Status](https://travis-ci.org/super1-chen/iciba.svg?branch=master)](https://travis-ci.org/super1-chen/iciba)
 
 iciba is a command-line dictionary using open API iciba
-
 
 # Build
 
