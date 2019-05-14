@@ -1,0 +1,10 @@
+# github.com/h2non/parth v0.0.0-20190131123155-b4df798d6542
+github.com/h2non/parth
+# github.com/mattn/go-runewidth v0.0.4
+github.com/mattn/go-runewidth
+# github.com/nbio/st v0.0.0-20140626010706-e9e8d9816f32
+github.com/nbio/st
+# github.com/olekukonko/tablewriter v0.0.1
+github.com/olekukonko/tablewriter
+# gopkg.in/h2non/gock.v1 v1.0.14
+gopkg.in/h2non/gock.v1

@@ -1,7 +1,6 @@
 package searcher
 
 import (
-	"fmt"
 	"testing"
 	"bytes"
 	"strings"
@@ -54,7 +53,6 @@ func TestPrintTable(t *testing.T) {
 		out = new(bytes.Buffer)
 		PrintTable(test.want)
 		got := out.(*bytes.Buffer).String()
-		fmt.Println(got)
 		for _, sub := range []string{test.words, "PART", "MEANING"} {
 
 			if ! strings.Contains(got, sub) {
