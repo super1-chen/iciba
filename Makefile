@@ -1,14 +1,14 @@
-all: win linux mac
+build: win linux mac
 target = ./main.go
 
 win:
-	GOOS=windows GOARCH=amd64 go build -o iciba.exe $(target)
+	GOOS=windows GOARCH=amd64 go build -o ./builds/iciba.exe $(target)
 
 linux:
-	GOOS=linux GOARCH=amd64 go build -o iciba $(target)
+	GOOS=linux GOARCH=amd64 go build -o ./builds/iciba $(target)
 
 mac:
-	GOOS=darwin GOARCH=amd64 go build -o hass_mac $(target)
+	GOOS=darwin GOARCH=amd64 go build -o ./builds/iciba_mac $(target)
 
 test:
 	go test -v ./...
